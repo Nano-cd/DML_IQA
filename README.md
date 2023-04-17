@@ -1,14 +1,17 @@
 
+
+
 **DML_IQA**
 
 *This is official repository of article ：“Improving IQA Performance Based on Deep Mutual Learning” . ICIP2022.
 DOI:10.1109/ICIP46576.2022.9897784
 https://ieeexplore.ieee.org/abstract/document/9897784*
-
-
-standard-readme
 ===============
 
+## API
+
+We need some more input for this.
+Consider sharing your opinion in [this issue](https://github.com/zcei/standard-readme/issues/3).
 
 ## Install
 
@@ -28,15 +31,12 @@ var readme = require('standard-readme');
 readme.check('.')
 ```
 
-## API
 
-We need some more input for this.
-Consider sharing your opinion in [this issue](https://github.com/zcei/standard-readme/issues/3).
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/zcei/standard-readme/issues/new).
-But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
+In this paper, we diverted the attention from network improvement to learning strategy change and carried out a pioneering attempt to improve IQA performance based on deep mutual learning. Through extensive experiments, we draw the following conclusions. First, the proposed DML-IQA improves the baseline’s performance in terms of both effectiveness and generalization. Notably, the improvement is more apparent when the training set size or network is small. Second, the proposed DML-IQA is flexible to adapt to diverse CNNs and is conducive to tackling the practical IQA issues in the laboratory and wild. These findings give us new inspirations for the follow-up works: 1) The DML-IQA can be further incorporated with existing full-reference/reduced-reference CNN-based IQA methods, to obtain better 
+performance by changing the current backbones and combining the DML strategy with previous methods. 2) The DML-IQA can be further extended to a semi-supervised IQA way to solve the problems that lack the training samples.
 
 # DML_IQA
 
@@ -56,5 +56,4 @@ for train DML-IQA:
 <br>5)change the parse_config (train to test) and choose the model you saved.
 
 
-In this paper, we diverted the attention from network improvement to learning strategy change and carried out a pioneering attempt to improve IQA performance based on deep mutual learning. Through extensive experiments, we draw the following conclusions. First, the proposed DML-IQA improves the baseline’s performance in terms of both effectiveness and generalization. Notably, the improvement is more apparent when the training set size or network is small. Second, the proposed DML-IQA is flexible to adapt to diverse CNNs and is conducive to tackling the practical IQA issues in the laboratory and wild. These findings give us new inspirations for the follow-up works: 1) The DML-IQA can be further incorporated with existing full-reference/reduced-reference CNN-based IQA methods, to obtain better 
-performance by changing the current backbones and combining the DML strategy with previous methods. 2) The DML-IQA can be further extended to a semi-supervised IQA way to solve the problems that lack the training samples.
+
