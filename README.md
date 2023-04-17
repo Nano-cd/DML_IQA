@@ -10,5 +10,13 @@ In this paper, we propose a novel solution, termed DML-IQA, for the image qualit
 ![image](https://user-images.githubusercontent.com/72659127/232369795-73be7e63-97a7-43d8-9a71-6ff16bc6a686.png)
 
 
+for train DML-IQA: 
+You just need 1)define your own dataset and network.(dataset  and   model_hub)
+2)define your own parse_config
+3)train baseline.py to get the baseline model.
+4)train train.py to get the DML-IQA model.
+5)change the parse_config (train to test) and choose the model you saved.
+
+
 In this paper, we diverted the attention from network improvement to learning strategy change and carried out a pioneering attempt to improve IQA performance based on deep mutual learning. Through extensive experiments, we draw the following conclusions. First, the proposed DML-IQA improves the baseline’s performance in terms of both effectiveness and generalization. Notably, the improvement is more apparent when the training set size or network is small. Second, the proposed DML-IQA is flexible to adapt to diverse CNNs and is conducive to tackling the practical IQA issues in the laboratory and wild. These findings give us new inspirations for the follow-up works: 1) The DML-IQA can be further incorporated with existing full-reference/reduced-reference CNN-based IQA methods, to obtain better 
 performance by changing the current backbones and combining the DML strategy with previous methods. 2) The DML-IQA can be further extended to a semi-supervised IQA way to solve the problems that lack the training samples.
