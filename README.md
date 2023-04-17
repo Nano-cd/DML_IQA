@@ -11,7 +11,7 @@ In this paper, we propose a novel solution, termed DML-IQA, for the image qualit
 
 
 for train DML-IQA: 
-You just need 1)define your own dataset and network.(dataset  and   model_hub)
+<br>You just need 1)define your own dataset and network.(dataset  and   model_hub)
 <br>2)define your own parse_config
 <br>3)train baseline.py to get the baseline model.
 <br>4)train train.py to get the DML-IQA model.
