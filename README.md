@@ -1,16 +1,14 @@
 
-**DRAFT STAGE**
+**DML_IQA**
 
-*Please [contribute in the issues](https://github.com/zcei/standard-readme/issues) to this evolving standard, as it makes no sense to define rules no one sticks to.*
+*This is official repository of article ：“Improving IQA Performance Based on Deep Mutual Learning” . ICIP2022.
+DOI:10.1109/ICIP46576.2022.9897784
+https://ieeexplore.ieee.org/abstract/document/9897784*
 
 
 standard-readme
 ===============
 
-> Describes how a README should look like, according to `standard-readme`
-
-![Travis Build Badge](https://img.shields.io/travis/joyent/node/v0.6.svg)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Install
 
@@ -41,9 +39,7 @@ Pull requests and stars are always welcome. For bugs and feature requests, [plea
 But before doing anything, please read the [CONTRIBUTING.md](./CONTRIBUTING.md) guidelines.
 
 # DML_IQA
-This is official repository of article ：“Improving IQA Performance Based on Deep Mutual Learning” . ICIP2022.
-DOI:10.1109/ICIP46576.2022.9897784
-https://ieeexplore.ieee.org/abstract/document/9897784
+
 
 In this paper, we propose a novel solution, termed DML-IQA, for the image quality assessment (IQA) tasks. DML-IQA holds a dual-branch network architecture and builds the IQA model through a deep mutual learning (DML) strategy. Specifically, the two branches extract stable feature representations by feeding different transformed images into the classical CNNs. The DML strategy first calculates the prediction loss of each branch and the consistency loss across two branches, followed by updating the network iteratively to converge. Overall, DML-IQA has the following advantages: 1) It is flexible to adapt to diverse backbones for tackling the IQA issues in both the laboratory and wild; 2) It improves the baseline’s performance by approximately 1%~2%, especially performs well in the case of small samples. Extensive experiments on four public datasets show that the proposed DML-IQA can handle the IQA tasks with considerable effectiveness and generalization.
 
